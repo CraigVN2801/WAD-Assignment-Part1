@@ -1,0 +1,276 @@
+body, html {
+    width:100%;     
+    min-height:100%; 
+    padding:0;
+    margin:0;
+}
+
+html, *{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+section, article, footer, header, nav {     
+    display:block;
+}
+
+a{
+    font-size: 30px;
+    padding: 10px;
+	text-decoration:none;
+    color:black;
+	
+}
+img {
+    border:none;
+}
+
+
+h1, h2, h3, h4 {
+    
+    color: #720992;
+}
+p {
+    
+    line-height: 24px;
+    font-size: 14px;
+}
+
+
+
+
+/*--------------header--------------*/
+
+header{
+	width:100%;
+	background:darkgrey;
+	padding: 10px 0px 10px 0px;
+	position:fixed;
+	top:0px;
+	z-index:100;
+
+}
+.header_bg{
+    width:100%;
+    background-image:url(../images/Background2.jpg);
+    background-repeat:no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size:cover;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    z-index:-100;
+    padding-top:250px;
+    padding-bottom:250px;
+}
+.wrapper{
+    width: 960px;
+    margin: auto;
+    text-align: center;
+}
+.logo{
+    float: left;
+    width: 15%;
+    size: 20px;
+}
+nav{
+    float:right;
+    margin-top:20px;
+}
+.clear{
+	clear:both;
+}
+nav ul li{
+	display:inline-block;
+	margin:0px 5px 0px 5px
+}
+
+
+/*--------------content----------*/
+.container01{
+    padding: 50px 0 50px 0;
+
+}
+.content{
+    margin-bottom: 50px;
+}
+.content h1{
+    color: #720992;
+    font-size: 66px;
+    line-height: 68px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.content p{
+    text-align: center;
+}
+
+/*--------------features--------------*/
+.feature{
+    width: 33%;
+    padding: 0% 1% 0% 1%;
+    float: left;
+}
+.feature img{
+    display: block;
+    margin: 0px auto 20px auto;
+    width:100%;
+}
+.feature h2{
+    font-size: 30px;
+    margin-bottom: 20px;
+    text-align: centre;
+}
+.feature p{
+    margin-bottom: 20px;
+}
+
+/*--------------container02--------------*/
+.container02{
+    background: url(../images/Background1.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size:cover;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    width: 100%;
+}
+
+.container02 h2{
+    font-size: 60px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #720992;
+}
+.Just_Added{
+    
+    width: 100%;
+    padding: 100px 0px 100px 0px;
+}
+
+/*-------------container03--------------*/
+.container03{
+    padding: 50px 0px 50px 0px;
+    background-color: lightgray;
+    width:100%;
+}
+.history h2{
+    font-size: 60px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #720992;
+}
+.history p{
+    margin-bottom: 20px;
+}
+.history img{
+    width:30%;
+    float: left;
+    margin-right: 20px;
+}
+/*---------------container04--------------*/
+.container04{
+    padding: 50px 0px 50px 0px;
+}
+.container04 h2{
+    font-size: 60px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #720992;
+}
+
+.gallery img{
+    float: left;
+    width: 12.5%;
+}
+/*--------------container05--------------*/
+.container05{
+    background: url(../images/Background1.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size:cover;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    width: 100%;
+}
+
+.container05 h2{
+    font-size: 60px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #720992;
+}
+.Community{
+    width: 100%;
+    padding: 100px 0px 100px 0px;
+    text-align: center;
+}
+
+/*-----------footer----------*/
+
+footer{
+    background-color:darkgray;
+    padding:20px 0px;
+    text-align: center;
+}
+
+footer p{
+    text-align:centre;
+    color:#000;
+}
+
+
+@media only screen and (max-width: 740px) and (min-width: 320px){
+    .logo{
+        margin: auto;
+        display: block;
+        float: none;
+        width: 15%
+    }
+    nav{
+    width:100%;
+    }
+
+ 
+
+    header{
+        position: relative;
+    }
+   .wrapper{ 
+        width:100%;
+        padding: 5%;
+    }
+    .header_bg{
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .header_bg img{
+        width: 50%;
+        margin: auto;
+        display: block;
+    }
+    .feature{
+        width: 100%;
+        margin-bottom: 5%;
+    }
+    .Just_Added{
+        padding: 10px;
+    }
+
+    }
+    h2{
+        font-size: 40px !important;
+
+    }
+    h1{
+        font-size: 44px !important;
+        line-height: 48px !important;
+    }
